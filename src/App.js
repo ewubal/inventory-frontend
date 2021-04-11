@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {Component} from "react";
+import {BrowserRouter, Route} from "react-router-dom";
+import NavigationBar from './components/navBar/navigationBar';
+import homePage from "./components/homePage/homePage.js";
+import frontPage from "./components/frontPage/frontPage.js"
+import register from "./components/register/register";
+import logIn from "./components/logIn/logIn";
+import search from "./components/search/search";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <NavigationBar/>
+                <BrowserRouter>
+                    <Route exact path={"/"} component={frontPage}/>
+                    <Route exact path={"/inventory"} component={homePage}/>
+                    <Route exact path={"/register"} component={register}/>
+                    <Route exact path={"/login"} component={logIn}/>
+                    <Route exact path={"/search/:search"} component={search}/>
+                    <Route exact path={"/search/:search/:id"} component={search}/>
+                    <Route exact path={"/inventory/:level"} component={homePage}/>
+                    <Route exact path={"/inventory/:level/:item"} component={homePage}/>
+                </BrowserRouter>
+            </div>
+        );
+    }
 }
 
 export default App;

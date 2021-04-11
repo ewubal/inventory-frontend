@@ -1,0 +1,38 @@
+.regLogForm {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    margin-left: 42%;
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    background-color: #87f6fa;
+}
+
+.registerForm {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+}
+
+.registerControl {
+    height: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.registerLogBtn {
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #00eeff;
+    margin: 6%;
+}
+
+.registerLogBtn:hover {
+    cursor: pointer;
+}

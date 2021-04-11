@@ -1,0 +1,56 @@
+.itemCard {
+    margin-top: 2%;
+    /*margin-left: 10%;*/
+    display: flex;
+    flex-direction: row;
+    background-color: #e8fcfc;
+    border-radius: 7px;
+    max-width: 90%;
+    min-width: 90%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #010166;
+}
+
+.text {
+    color: #010166;
+}
+
+.heading {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deleteBtn, .modifyBtn {
+    height: 30px;
+    margin: 5px;
+    background-color: #00eeff;
+    border-radius: 3px;
+}
+
+.deleteBtn:hover, .modifyBtn:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,35 @@
+.addDirectoryCard {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    border-radius: 5px;
+    background-color: #e8fcfc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.directoryTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nameInput {
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.submitDirectoryBtn {
+    font-weight: bold;
+    margin: 2%;
+    width: 15%;
+    min-height: 30px;
+    background-color: #00eeff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitDirectoryBtn:hover {
+    cursor: pointer;
+
+}

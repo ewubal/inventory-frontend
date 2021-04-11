@@ -1,0 +1,76 @@
+.directoryBox {
+    min-width: 20%;
+    margin-top: 1%;
+    min-height: 100px;
+    border-radius: 5px;
+    background-color: #e8fcfc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.directoryButton {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin-bottom: 7px;*/
+    width: 70%;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 170%;
+    border-radius: 7px;
+    color: black;
+    background-color: #00eeff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.directoryButton:hover {
+    cursor: pointer;
+}
+
+.addButton {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    width: 34%;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 90%;
+    border-radius: 7px;
+    color: black;
+    background-color: #f2f7ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.addButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+}
+
+.addButton:hover {
+    cursor: pointer;
+}
+
+.directoryButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.directoryBoxAndCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.directoryBoxAndAddBoxes {
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+
+
+

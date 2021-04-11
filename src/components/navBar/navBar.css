@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, serif;
+}
+
+.navbar-expand {
+    justify-content: space-between !important;
+}
+
+.navbar-primary {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #00eeff, #02e871, #e0e04c);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+    color: #02afe8;
+    text-decoration: none;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+}
+
+.button {
+    text-decoration: none;
+    width: 14.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.search {
+    height: 20px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.searchBtn {
+    height: 25px;
+    width: 25px;
+    background-color: #02afe8;
+    margin-bottom: -7px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
